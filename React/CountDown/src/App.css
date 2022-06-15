@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+.InputForm {
+  width: 30%;
+  margin: 2% auto;
+  display: flex;
+
+}
+
+.InputForm>input {
+  width: 20%;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  padding-left: 10px;
+}
+
+button {
+  margin: 5px;
+  font-size: 16px;
+}
