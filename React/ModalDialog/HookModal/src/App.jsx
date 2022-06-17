@@ -1,11 +1,11 @@
 import './App.css'
-import { ModalDialouge } from './ModalDialouge';
+import { ModalDialog } from './ModalDialog';
 
 function App() {
 
   return (
     <div className="App">
-      <ModalDialouge />
+      <ModalDialog />
     </div>
   )
 }

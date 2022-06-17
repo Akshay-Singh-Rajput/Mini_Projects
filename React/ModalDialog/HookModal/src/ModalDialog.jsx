@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 import { ToggleModal } from './Toggle_Modal';
 
 
-export const ModalDialouge = () => {
+export const ModalDialog = () => {
 
     const [ isModalOpen, setModalIsOpen ] = useState(false);
 
-    console.log(useState("hello")[ 1 ]);
+    // console.log(useState("hello")[ 1 ]);
     const toggleModal = () => {
         setModalIsOpen(!isModalOpen);
     };
