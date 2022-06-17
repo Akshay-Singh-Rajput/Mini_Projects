@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+  width: 100%;
+}
+
+.carousel_Container {
+  width: 50%;
+  margin: 20px auto;
+}
+
+.carousel_Container img {
+  width: 90%;
+}
