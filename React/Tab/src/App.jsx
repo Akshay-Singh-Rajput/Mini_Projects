@@ -1,7 +1,7 @@
 import './App.css'
 import Login from './Login';
 import Signup from './Signup';
-import { TabItem, Tabs } from './tab';
+import { TabItem, Tabs } from './TabItem_Tab';
 
 function App() {
 
