@@ -85,9 +85,9 @@ export function FileDrop(props) {
                 drag ? "filedrop drag" : filename ? "filedrop ready" : "filedrop"
             }
         >
-                { filename && !drag ? <div>{ filename }</div> : <div>Drop files here!</div> }
+                { filename && !drag ? <div>{ filename }</div> : <div>Drop Image here!</div> }
         </div>
-            <div className="previewImg">
+            <div style={{width:"45%", margin : "20px auto"}}>
             <img src={ preview } alt="" />
             </div>
         </div>
